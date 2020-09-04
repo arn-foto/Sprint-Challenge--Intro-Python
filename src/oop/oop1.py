@@ -1,5 +1,5 @@
 # Write classes for the following class hierarchy:
-#Testing testing 1 2 3 
+#
 #  [Vehicle]->[FlightVehicle]->[Starship]
 #      |                |
 #      v                v
@@ -11,32 +11,38 @@
 # Each class can simply "pass" for its body. The exercise is about setting up
 # the hierarchy.
 #
-# e.g.
+#  e.g
 #
 # class Whatever:
 #     pass
 #
 # Put a comment noting which class is the base class
 #
-#
-#### This will be the base class ####
+### this will be the base class ###
 class Vehicle():
+   
     pass
+
 
 class FlightVehicle(Vehicle):
     pass
 
+
 class Starship(FlightVehicle):
     pass
+
 
 class Airplane(FlightVehicle):
     pass
 
+
 class GroundVehicle(Vehicle):
     pass
 
+
 class Car(GroundVehicle):
     pass
+
 
 class Motorcycle(GroundVehicle):
     pass
