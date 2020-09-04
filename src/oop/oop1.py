@@ -19,9 +19,10 @@
 # Put a comment noting which class is the base class
 #
 #
+#### This will be the base class ####
 class Vehicle():
     pass
-#### This will be the base class ####
+
 class FlightVehicle(Vehicle):
     pass
 
